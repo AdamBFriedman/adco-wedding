@@ -129,3 +129,20 @@ ol {
 button:focus {
   outline: none;
 }
+
+/* Large Tablet */
+@media (min-width: 992px) and (max-width: 1190px) {
+}
+
+/* Tablet */
+
+@media (min-width: 601px) and (max-width: 991px) {
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  .title-box h2 {
+    font-size: 38px !important;
+  }
+}
