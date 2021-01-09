@@ -1,17 +1,18 @@
 import React from "react";
 import Logo from "../../Images/Logo/logo.png";
+import "../Navbar/navbar.css";
 
 export default function Navbar(props) {
   return (
     <>
-      <header class="top-header">
-        <nav class="navbar header-nav navbar-expand-lg">
-          <div class="container">
-            <a class="navbar-brand" href="index.html">
+      <header className="top-header">
+        <nav className="navbar header-nav navbar-expand-lg">
+          <div className="container">
+            <a className="navbar-brand" href="index.html">
               <img id="logo" src={Logo} alt="Logo" />
             </a>
             <button
-              class="navbar-toggler"
+              className="navbar-toggler"
               type="button"
               data-toggle="collapse"
               data-target="#navbar-wd"
@@ -24,52 +25,52 @@ export default function Navbar(props) {
               <span></span>
             </button>
             <div
-              class="collapse navbar-collapse justify-content-end"
+              className="collapse navbar-collapse justify-content-end"
               id="navbar-wd"
             >
-              <ul class="navbar-nav">
+              <ul className="navbar-nav">
                 <li>
-                  <a class="nav-link active" href="#home">
+                  <a className="nav-link active" href="#home">
                     Home
                   </a>
                 </li>
                 <li>
-                  <a class="nav-link" href="#about">
+                  <a className="nav-link" href="#about">
                     About Us
                   </a>
                 </li>
                 <li>
-                  <a class="nav-link" href="#story">
+                  <a className="nav-link" href="#story">
                     Story
                   </a>
                 </li>
                 <li>
-                  <a class="nav-link" href="#party">
+                  <a className="nav-link" href="#party">
                     Party
                   </a>
                 </li>
                 <li>
-                  <a class="nav-link" href="#wedding">
+                  <a className="nav-link" href="#wedding">
                     Wedding
                   </a>
                 </li>
                 <li>
-                  <a class="nav-link" href="#travel">
+                  <a className="nav-link" href="#travel">
                     Travel
                   </a>
                 </li>
                 <li>
-                  <a class="nav-link" href="#registry">
+                  <a className="nav-link" href="#registry">
                     Registry
                   </a>
                 </li>
                 <li>
-                  <a class="nav-link" href="#faq">
+                  <a className="nav-link" href="#faq">
                     FAQ
                   </a>
                 </li>
                 <li>
-                  <a class="nav-link" href="#contact">
+                  <a className="nav-link" href="#contact">
                     Contact
                   </a>
                 </li>
