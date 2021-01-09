@@ -87,3 +87,39 @@
 #logo {
   height: 100px;
 }
+
+/* Large Tablets */
+@media (min-width: 992px) and (max-width: 1190px) {
+  .top-header .navbar .navbar-collapse ul li a {
+    font-size: 14px;
+  }
+}
+
+/* Tablet */
+
+@media (min-width: 601px) and (max-width: 991px) {
+  /* Navbar */
+  .top-header {
+    position: relative;
+  }
+
+  .top-header .navbar .navbar-collapse ul li a {
+    padding: 5 px 15px;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  /* Navbar */
+  .navbar-brand {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .top-header {
+    position: relative;
+  }
+  .top-header .navbar .navbar-collapse ul li a {
+    padding: 5px 15px;
+  }
+}
