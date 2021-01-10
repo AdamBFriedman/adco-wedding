@@ -5,6 +5,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Slider from "./Components/Slider/Slider";
 import AboutUs from "./Components/AboutUs/AboutUs";
 import OurStory from "./Components/OurStory/OurStory";
+import Bridesmaids from "./Components/Bridesmaids/Bridesmaids";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <AboutUs />
       <Preloader />
       <OurStory />
+      <Bridesmaids />
     </div>
   );
 }
