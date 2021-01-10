@@ -4,14 +4,14 @@
 import { useEffect } from "react";
 import jQuery from "jquery";
 import "../Slider/slider.css";
-import image1 from "../../Images/images/slider-1.jpg";
-import image2 from "../../Images/images/slider-2.jpg";
-import image3 from "../../Images/images/slider-3.jpg";
-import image4 from "../../Images/images/slider-4.jpg";
-import image5 from "../../Images/images/slider-5.jpg";
-import image6 from "../../Images/images/slider-6.jpg";
-import image7 from "../../Images/images/slider-7.jpg";
-import image8 from "../../Images/images/slider-8.jpg";
+import image1 from "../../Images/Slider/slider-1.jpg";
+import image2 from "../../Images/Slider/slider-2.jpg";
+import image3 from "../../Images/Slider/slider-3.jpg";
+import image4 from "../../Images/Slider/slider-4.jpg";
+import image5 from "../../Images/Slider/slider-5.jpg";
+import image6 from "../../Images/Slider/slider-6.jpg";
+import image7 from "../../Images/Slider/slider-7.jpg";
+import image8 from "../../Images/Slider/slider-8.jpg";
 
 export default function Slider(props) {
   useEffect(() => {
