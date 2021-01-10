@@ -8,6 +8,7 @@ import OurStory from "./Components/OurStory/OurStory";
 import Bridesmaids from "./Components/Bridesmaids/Bridesmaids";
 import Groomsmen from "./Components/Groomsmen/Groomsmen";
 import Itinerary from "./Components/Itinerary/Itinerary";
+import Travel from "./Components/Travel/Travel";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Bridesmaids />
       <Groomsmen />
       <Itinerary />
+      <Travel />
     </div>
   );
 }

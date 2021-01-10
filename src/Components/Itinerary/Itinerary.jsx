@@ -21,7 +21,11 @@ export default function Itinerary(props) {
               <h3 className="title">Ceremony</h3>
               <h4>Friday, February 4th 2022 at 4:00 pm</h4>
               <p className="description">
-                <a target="_blank" href="http://clublakeplantation.com/">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  href="http://clublakeplantation.com/"
+                >
                   Club Lake Plantation
                 </a>
                 <br />
@@ -31,6 +35,7 @@ export default function Itinerary(props) {
                 </span>
               </p>
               <a
+                rel="noreferrer"
                 target="_blank"
                 href="http://maps.google.com/?q=3403 Rock Springs Rd, Apopka, FL, 32712"
               >
