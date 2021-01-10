@@ -10,6 +10,7 @@ import Groomsmen from "./Components/Groomsmen/Groomsmen";
 import Itinerary from "./Components/Itinerary/Itinerary";
 import Travel from "./Components/Travel/Travel";
 import Registry from "./Components/Registry/Registry";
+import FAQ from "./Components/FAQ/FAQ";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Itinerary />
       <Travel />
       <Registry />
+      <FAQ />
     </div>
   );
 }

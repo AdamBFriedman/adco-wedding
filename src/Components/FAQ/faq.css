@@ -1,0 +1,26 @@
+.faq-box {
+  padding: 70px 0px;
+}
+
+.faq-card {
+  margin-top: 0.5em;
+  border-color: var(--primary);
+  border-bottom: 1px solid var(--primary) !important;
+}
+
+.card-body {
+  border-top: 1px solid var(--primary) !important;
+}
+
+.card-header {
+  background: #efefef;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  /* FAQ */
+  .card-header {
+    overflow: scroll;
+  }
+}
