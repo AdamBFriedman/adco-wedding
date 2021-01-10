@@ -9,6 +9,7 @@ import Bridesmaids from "./Components/Bridesmaids/Bridesmaids";
 import Groomsmen from "./Components/Groomsmen/Groomsmen";
 import Itinerary from "./Components/Itinerary/Itinerary";
 import Travel from "./Components/Travel/Travel";
+import Registry from "./Components/Registry/Registry";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Groomsmen />
       <Itinerary />
       <Travel />
+      <Registry />
     </div>
   );
 }
