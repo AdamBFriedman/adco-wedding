@@ -300,4 +300,8 @@ $timeline-container-width: 100%;
   .timeline-header__title {
     font-size: 38px;
   }
+
+  .timeline-item:before {
+    font-size: 13px;
+  }
 }
