@@ -130,13 +130,14 @@ button:focus {
   outline: none;
 }
 
-/* Large Tablet */
-@media (min-width: 992px) and (max-width: 1190px) {
-}
-
 /* Tablet */
 
 @media (min-width: 601px) and (max-width: 991px) {
+  /* Service Card */
+
+  .service-card {
+    margin-top: 2em;
+  }
 }
 
 /* Mobile */
@@ -144,5 +145,12 @@ button:focus {
 @media (max-width: 600px) {
   .title-box h2 {
     font-size: 38px !important;
+  }
+
+  /* Service Card */
+
+  .service-card {
+    margin: auto;
+    margin-top: 2em;
   }
 }
