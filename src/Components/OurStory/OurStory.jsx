@@ -23,29 +23,24 @@ export default function OurStory(_props) {
           "url(" + selectors.item.first().find(selectors.img).attr("src") + ")"
         );
 
-        var itemLength = selectors.item.length;
         jQuery(window).scroll(function () {
-          var max, min;
-          var pos = jQuery(this).scrollTop();
           selectors.item.each(function (i) {
-            min = jQuery(this).offset().top;
-            max = jQuery(this).height() + jQuery(this).offset().top;
+            var windowHeight = jQuery(window).height(),
+              gridTop = windowHeight * 0.2,
+              gridBottom = windowHeight * 0.8;
+            var thisTop =
+              jQuery(this).offset().top - jQuery(window).scrollTop();
 
-            if (i === itemLength - 2 && pos > min + jQuery(this).height() / 2) {
-              selectors.item.removeClass(selectors.activeClass);
-              selectors.id.css(
-                "background-image",
-                "url(" +
-                  selectors.item.last().find(selectors.img).attr("src") +
-                  ")"
-              );
-              selectors.item.last().addClass(selectors.activeClass);
-            } else if (pos <= max - 40 && pos >= min) {
+            if (
+              thisTop > gridTop &&
+              thisTop + jQuery(this).height() < gridBottom
+            ) {
               selectors.id.css(
                 "background-image",
                 "url(" + jQuery(this).find(selectors.img).attr("src") + ")"
               );
               selectors.item.removeClass(selectors.activeClass);
+
               jQuery(this).addClass(selectors.activeClass);
             }
           });
