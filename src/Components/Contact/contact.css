@@ -1,0 +1,72 @@
+.contact-box {
+  padding: 70px 0px;
+  background: url(../../Images/images/ptn-bg.jpg);
+  font-family: "Montserrat", sans-serif;
+}
+
+.contact-box p {
+  color: var(--primary-dark);
+}
+
+.contact-block .form-group .form-control {
+  background: var(--primary);
+  height: 45px;
+  font-size: 16px;
+  border: 0;
+  color: #ffffff;
+  padding: 6px 15px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.contact-block .form-group textarea.form-control {
+  height: 150px;
+  padding-top: 15px;
+}
+
+#name::placeholder,
+#email::placeholder,
+#message::placeholder {
+  color: white;
+}
+
+.submit-button .btn-common {
+  background-color: white;
+  height: 45px;
+  line-height: 45px;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--primary);
+  padding: 0 15px;
+  border: 0;
+  outline: 0;
+  text-transform: uppercase;
+  border: 2px solid var(--primary);
+  border-radius: 5px;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+}
+.submit-button .btn-common:hover {
+  background-color: var(--primary);
+  color: white;
+}
+
+.custom-select {
+  height: 45px;
+  font-size: 16px;
+}
+select.form-control:not([size]):not([multiple]) {
+  height: calc(45px + 2px);
+}
+
+.help-block ul li {
+  color: red;
+}
