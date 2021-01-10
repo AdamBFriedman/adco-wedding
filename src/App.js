@@ -6,6 +6,7 @@ import Slider from "./Components/Slider/Slider";
 import AboutUs from "./Components/AboutUs/AboutUs";
 import OurStory from "./Components/OurStory/OurStory";
 import Bridesmaids from "./Components/Bridesmaids/Bridesmaids";
+import Groomsmen from "./Components/Groomsmen/Groomsmen";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Preloader />
       <OurStory />
       <Bridesmaids />
+      <Groomsmen />
     </div>
   );
 }

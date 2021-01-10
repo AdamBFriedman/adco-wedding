@@ -1,11 +1,11 @@
 import { useEffect } from "react";
 import jQuery from "jquery";
 import "../OurStory/ourStory.scss";
-import FirstMet from "../../Images/images/firstMet.jpg";
-import fellInLove from "../../Images/images/fellInLove.jpg";
-import movedToSF from "../../Images/images/movedToCali.png";
-import firstHome from "../../Images/images/firstHome.jpg";
-import proposal from "../../Images/images/proposal.jpg";
+import FirstMet from "../../Images/OurStory/firstMet.jpg";
+import fellInLove from "../../Images/OurStory/fellInLove.jpg";
+import movedToSF from "../../Images/OurStory/movedToCali.png";
+import firstHome from "../../Images/OurStory/firstHome.jpg";
+import proposal from "../../Images/OurStory/proposal.jpg";
 
 export default function OurStory(_props) {
   useEffect(() => {
