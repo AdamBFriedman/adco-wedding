@@ -186,6 +186,7 @@ export default function Slider(props) {
                 a.nextText +
                 "</a>";
               m.navContainer ? c(a.navContainer).append(g) : f.after(g);
+              // eslint-disable-next-line no-use-before-define
               let d = c("." + d + "_nav"),
                 I = d.filter(".prev");
               d.bind("click", function (b) {
