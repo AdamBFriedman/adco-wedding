@@ -40,8 +40,8 @@ export default function Navbar(props) {
                   </a>
                 </li>
                 <li>
-                  <a className="nav-link" href="#story">
-                    Story
+                  <a className="nav-link" href="#timeline">
+                    Our Story
                   </a>
                 </li>
                 <li>
