@@ -12,6 +12,7 @@ import Travel from "./Components/Travel/Travel";
 import Registry from "./Components/Registry/Registry";
 import FAQ from "./Components/FAQ/FAQ";
 import Contact from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       <Registry />
       <FAQ />
       <Contact />
+      <Footer />
     </div>
   );
 }
