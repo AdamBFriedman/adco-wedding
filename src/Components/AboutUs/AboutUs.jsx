@@ -98,7 +98,11 @@ export default function Aboutus(props) {
                         </a>
                       </li>
                       <li>
-                        <a target="_blank" rel="noreferrer" href="#">
+                        <a
+                          target="_blank"
+                          rel="noreferrer"
+                          href="https://www.instagram.com/"
+                        >
                           <FontAwesomeIcon
                             className="icon"
                             icon={faInstagram}
