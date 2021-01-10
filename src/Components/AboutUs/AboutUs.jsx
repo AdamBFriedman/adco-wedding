@@ -101,7 +101,7 @@ export default function Aboutus(props) {
                         <a
                           target="_blank"
                           rel="noreferrer"
-                          href="https://www.instagram.com/"
+                          href="https://www.instagram.com/courtneybrookek/"
                         >
                           <FontAwesomeIcon
                             className="icon"
