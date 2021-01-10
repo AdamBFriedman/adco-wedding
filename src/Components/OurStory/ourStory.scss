@@ -140,20 +140,15 @@ $timeline-container-width: 100%;
     }
   }
   &-header {
-    width: 100%;
     text-align: center;
-    margin-bottom: 80px;
-    position: relative;
+    margin-bottom: 30px;
     &__title {
-      color: #fff;
-      font-size: 46px;
-      font-family: $heading-font;
-      font-weight: normal;
-      margin: 0;
+      font-size: 60px;
+      font-family: "Playfair Display", serif;
+      color: white;
     }
     &__subtitle {
       color: rgba(255, 255, 255, 0.5);
-      font-family: $heading-font;
       font-size: 16px;
       letter-spacing: 5px;
       margin: 10px 0 0 0;
@@ -280,21 +275,29 @@ $timeline-container-width: 100%;
   content: "";
 }
 .timeline-header {
-  width: 100%;
-  text-align: center;
-  margin-bottom: 80px;
-  position: relative;
+  // width: 100%;
+  // text-align: center;
+  // margin-bottom: 80px;
+  // position: relative;
 }
 .timeline-header__title {
-  color: #fff;
-  font-size: 46px;
-  font-weight: normal;
-  margin: 0;
+  // color: #fff;
+  // font-size: 46px;
+  // font-weight: normal;
+  // margin: 0;
 }
 .timeline-header__subtitle {
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 16px;
-  letter-spacing: 5px;
-  margin: 10px 0 0 0;
-  font-weight: normal;
+  // color: rgba(255, 255, 255, 0.5);
+  // font-size: 16px;
+  // letter-spacing: 5px;
+  // margin: 10px 0 0 0;
+  // font-weight: normal;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  .timeline-header__title {
+    font-size: 38px;
+  }
 }

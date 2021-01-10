@@ -1,8 +1,26 @@
-import React from "react";
+import { useEffect } from "react";
+import jQuery from "jquery";
 import Logo from "../../Images/Logo/logo.png";
 import "../Navbar/navbar.css";
 
 export default function Navbar(props) {
+  useEffect(() => {
+    jQuery(".navbar-nav .nav-link").on("click", function () {
+      var toggle = jQuery(".navbar-toggler").is(":visible");
+      if (toggle) {
+        jQuery(".navbar-collapse").collapse("hide");
+      }
+    });
+
+    jQuery(window).on("scroll", function () {
+      if (jQuery(window).scrollTop() > 50) {
+        jQuery(".top-header").addClass("fixed-menu");
+      } else {
+        jQuery(".top-header").removeClass("fixed-menu");
+      }
+    });
+  });
+
   return (
     <>
       <header className="top-header">
