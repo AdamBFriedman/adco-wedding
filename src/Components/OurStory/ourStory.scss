@@ -281,12 +281,10 @@ $timeline-container-width: 100%;
 
 @media (min-width: 601px) and (max-width: 991px) {
   .timeline-container {
-    background-size: 100% 100% !important;
-    min-height: 100% !important;
-    -webkit-background-size: 100% 100% !important;
-    -moz-background-size: 100% 100% !important;
-    -o-background-size: 100% 100% !important;
-    background-size: 100% 100% !important;
+    background-size: auto !important;
+    -webkit-background-size: auto !important;
+    -moz-background-size: auto !important;
+    -o-background-size: auto !important;
   }
 }
 
@@ -294,12 +292,10 @@ $timeline-container-width: 100%;
 
 @media (max-width: 600px) {
   .timeline-container {
-    background-size: 100% 100% !important;
-    min-height: 100% !important;
-    -webkit-background-size: 100% 100% !important;
-    -moz-background-size: 100% 100% !important;
-    -o-background-size: 100% 100% !important;
-    background-size: 100% 100% !important;
+    background-size: auto !important;
+    -webkit-background-size: auto !important;
+    -moz-background-size: auto !important;
+    -o-background-size: auto !important;
   }
 
   .timeline-header__title {
