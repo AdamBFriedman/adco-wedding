@@ -279,15 +279,6 @@ $timeline-container-width: 100%;
   content: "";
 }
 
-@media (min-width: 601px) and (max-width: 991px) {
-  .timeline-container {
-    background-size: auto !important;
-    -webkit-background-size: auto !important;
-    -moz-background-size: auto !important;
-    -o-background-size: auto !important;
-  }
-}
-
 /* Mobile */
 
 @media (max-width: 600px) {
