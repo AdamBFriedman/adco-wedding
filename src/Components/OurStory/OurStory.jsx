@@ -1,8 +1,7 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import jQuery from "jquery";
 import "../OurStory/ourStory.scss";
 import FirstMet from "../../Images/OurStory/firstMet.jpg";
-import FirstMetMobile from "../../Images/OurStory/firstMetMobile.jpg";
 import fellInLove from "../../Images/OurStory/fellInLove.png";
 import movedToSF from "../../Images/OurStory/movedToCali.png";
 import firstHome from "../../Images/OurStory/firstHome.jpg";
