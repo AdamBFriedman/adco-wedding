@@ -1,13 +1,19 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import jQuery from "jquery";
 import "../OurStory/ourStory.scss";
-import FirstMet from "../../Images/OurStory/firstMet2.jpg";
+import FirstMet from "../../Images/OurStory/firstMet.jpg";
+import FirstMetMobile from "../../Images/OurStory/firstMetMobile.jpg";
 import fellInLove from "../../Images/OurStory/fellInLove.png";
 import movedToSF from "../../Images/OurStory/movedToCali.png";
 import firstHome from "../../Images/OurStory/firstHome.jpg";
 import proposal from "../../Images/OurStory/proposal.jpg";
 
 export default function OurStory(_props) {
+  const [windowWidth, setWindowWidth] = useState(0);
+  useEffect(() => {
+    setWindowWidth(window.innerWidth);
+  }, [setWindowWidth]);
+
   useEffect(() => {
     (function (jQuery) {
       jQuery.fn.timeline = function () {
@@ -47,8 +53,10 @@ export default function OurStory(_props) {
         });
       };
     })(jQuery);
+
     jQuery("#timeline").timeline();
   });
+
   return (
     <div className="timeline-container" id="timeline">
       <div className="timeline-header">
@@ -60,7 +68,11 @@ export default function OurStory(_props) {
       <div className="timeline">
         <div className="timeline-item" data-text="First Met">
           <div className="timeline__content">
-            <img alt="First Met" className="timeline__img" src={FirstMet} />
+            <img
+              alt="First Met"
+              className="timeline__img"
+              src={windowWidth >= 600 ? FirstMet : FirstMetMobile}
+            />
             <h2 className="timeline__content-title">Nov 2008</h2>
             <p className="timeline__content-desc">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
