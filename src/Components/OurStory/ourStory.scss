@@ -278,7 +278,7 @@ $timeline-container-width: 100%;
 /* Mobile */
 
 @media (max-width: 600px) {
-  .timeline__content {
+  .timeline-container {
     max-width: 600px !important;
     min-width: 300px !important;
     // background-size: cover !important;
