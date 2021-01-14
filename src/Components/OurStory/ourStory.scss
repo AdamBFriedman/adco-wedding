@@ -289,4 +289,10 @@ $timeline-container-width: 100%;
   .timeline-item:before {
     font-size: 13px;
   }
+
+  .timeline-item {
+    align-self: baseline !important;
+    width: 100%;
+    padding: 0 30px auto 80px;
+  }
 }
