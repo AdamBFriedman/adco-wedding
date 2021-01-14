@@ -279,7 +279,7 @@ $timeline-container-width: 100%;
 
 @media (max-width: 600px) {
   .timeline-container {
-    background-position: 50% 50% !important;
+    background-position: auto 50% !important;
   }
 
   .timeline-header__title {
