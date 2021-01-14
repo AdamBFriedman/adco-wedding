@@ -66,9 +66,12 @@ export default function OurStory(_props) {
             <img alt="First Met" className="timeline__img" src={FirstMet} />
             <h2 className="timeline__content-title">Nov 2008</h2>
             <p className="timeline__content-desc">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Excepturi consequuntur perspiciatis ducimus beatae. Placeat
-              recusandae at omnis obcaecati adipisci officia.
+              Adam hosted a party and remembers how beautiful Courtney looked
+              walking up to him as he went outside to greet his guests. "Hi, I'm
+              Courtney." she said as she extended her hand. "I love that name!".
+              They shared a lot of interesting adventures that night and he knew
+              he had to ask for her number. They had their first date two days
+              later.
             </p>
           </div>
         </div>
@@ -81,9 +84,10 @@ export default function OurStory(_props) {
             />
             <h2 className="timeline__content-title">Feb 2014</h2>
             <p className="timeline__content-desc">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Excepturi consequuntur perspiciatis ducimus beatae. Placeat
-              recusandae at omnis obcaecati adipisci officia.
+              Adam promised Courtney a trip to Disney when they first met but
+              life got in the way and that trip never got to happen... until mid
+              February 2014. Perhaps it was the magic inside of the parks but
+              that trip lit a fire that has never gone out.
             </p>
           </div>
         </div>
@@ -96,9 +100,10 @@ export default function OurStory(_props) {
             />
             <h2 className="timeline__content-title">May 2014</h2>
             <p className="timeline__content-desc">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Excepturi consequuntur perspiciatis ducimus beatae. Placeat
-              recusandae at omnis obcaecati adipisci officia.
+              Courtney and Adam had become close since their Disney trip but the
+              time came when Courtney decided to move to San Francisco. Adam had
+              never been to California but knew he didn't want to leave anything
+              on the table. He followed her out there and they began dating.
             </p>
           </div>
         </div>
@@ -107,9 +112,9 @@ export default function OurStory(_props) {
             <img alt="First Home" className="timeline__img" src={firstHome} />
             <h2 className="timeline__content-title">Aug 2016</h2>
             <p className="timeline__content-desc">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Excepturi consequuntur perspiciatis ducimus beatae. Placeat
-              recusandae at omnis obcaecati adipisci officia.
+              After two years of living with roommates, Courtney and Adam moved
+              into their own apartment in the heart of the city. This is where
+              their love began to flourish...
             </p>
           </div>
         </div>
@@ -118,9 +123,10 @@ export default function OurStory(_props) {
             <img alt="Proposal" className="timeline__img" src={proposal} />
             <h2 className="timeline__content-title">Aug 2019</h2>
             <p className="timeline__content-desc">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Excepturi consequuntur perspiciatis ducimus beatae. Placeat
-              recusandae at omnis obcaecati adipisci officia.
+              After six years of dating, Adam knew it was time. He planned a
+              secret proposal (disguised as Courtney's birthday gift) in Santa
+              Rosa's wine country complete with their own cottage and private
+              wine tasting.
             </p>
           </div>
         </div>
