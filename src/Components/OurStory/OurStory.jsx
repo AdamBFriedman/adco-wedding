@@ -9,11 +9,6 @@ import firstHome from "../../Images/OurStory/firstHome.jpg";
 import proposal from "../../Images/OurStory/proposal.jpg";
 
 export default function OurStory(_props) {
-  const [windowWidth, setWindowWidth] = useState(0);
-  useEffect(() => {
-    setWindowWidth(window.innerWidth);
-  }, [setWindowWidth]);
-
   useEffect(() => {
     (function (jQuery) {
       jQuery.fn.timeline = function () {
@@ -68,11 +63,7 @@ export default function OurStory(_props) {
       <div className="timeline">
         <div className="timeline-item" data-text="First Met">
           <div className="timeline__content">
-            <img
-              alt="First Met"
-              className="timeline__img"
-              src={windowWidth >= 600 ? FirstMet : FirstMetMobile}
-            />
+            <img alt="First Met" className="timeline__img" src={FirstMet} />
             <h2 className="timeline__content-title">Nov 2008</h2>
             <p className="timeline__content-desc">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
