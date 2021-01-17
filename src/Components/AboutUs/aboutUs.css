@@ -33,8 +33,14 @@
   text-decoration: underline;
 }
 
-.about-main-info p {
-  font-family: "Montserrat", sans-serif;
+.about-main-info ul li {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+
+.about-main-info ul li span {
+  font-family: "Questrial", sans-serif;
+  font-weight: 300;
 }
 
 .about-m {

@@ -70,15 +70,30 @@ export default function Aboutus(props) {
                     <span>Adam Friedman</span>
                     <i className="fa fa-heart-o" aria-hidden="true"></i>
                   </h2>
-                  <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Accusamus architecto cumque neque hic voluptates mollitia
-                    quam repellat nemo rerum iste. Id deserunt, recusandae
-                    quidem libero sint aperiam, officiis temporibus soluta iste
-                    dolor cumque illo tempora assumenda! Architecto tempora nemo
-                    quaerat tempore unde dignissimos aliquam? Non dolorem esse
-                    inventore.
-                  </p>
+                  <ul>
+                    <li>
+                      Occupation: <span>Senior Software Engineer</span>
+                    </li>
+                    <li>
+                      Hobbies: <span>Games, Coding, Miami Dolphins</span>
+                    </li>
+                    <li>
+                      Favorite Show: <span>Seinfeld</span>
+                    </li>
+                    <li>
+                      Favorite Movie: <span>Dumb and Dumber</span>
+                    </li>
+                    <li>
+                      Favorite Song: <span>Drifters - Up on the Roof</span>
+                    </li>
+                    <li>
+                      Favorite Quote:{" "}
+                      <span>
+                        “All our dreams can come true, if we have the courage to
+                        pursue them.” - Walt Disney
+                      </span>
+                    </li>
+                  </ul>
                 </div>
               </div>
               <div className="row align-items-center about-main-info">
