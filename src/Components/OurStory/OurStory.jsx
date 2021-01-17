@@ -67,10 +67,10 @@ export default function OurStory(_props) {
             <p className="timeline__content-desc">
               Adam hosted a party and remembers how beautiful Courtney looked
               walking up to him as he went outside to greet his guests. "Hi, I'm
-              Courtney." she said as she extended her hand. "I love that name!".
-              They shared a lot of interesting moments that night and he knew
-              those adventures must continue. They had their first date two days
-              later.
+              Courtney" she said as she extended her hand - to which Adam
+              replied "Courtney? I love that name!". They shared a lot of
+              interesting moments that night and he knew those adventures must
+              continue. They had their first date two days later.
             </p>
           </div>
         </div>
@@ -84,11 +84,16 @@ export default function OurStory(_props) {
             <h2 className="timeline__content-title">Feb 2014</h2>
             <p className="timeline__content-desc">
               Adam promised Courtney a trip to Disney when they first met but
-              life got in the way and that trip never got to happen... until mid
-              February 2014. Small moments such as watching the fireworks on
-              their hotel balcony or Adam spelling out "Good morning" in
-              silverware combined with the magic inside of the parks helped
-              light a fire that continues to grow.
+              life got in the way and that trip never got to happen...until six
+              years later. At this time they were just friends but Adam
+              seemingly had more up his sleeve. He arranged a weekend trip for
+              just the two of them to Magic Kingdom where Adam courted her the
+              entire time in true Adam fashion. One morning she woke up to "Good
+              Morning" spelled out in silverware on the kitchen counter. Another
+              evening he took her to Hash House a Go Go where they shared laughs
+              over a 16" snickers flavored pancake for dinner - yes, that’s
+              right - dinner. The magic of Disney ultimately rekindled the love
+              between the two and helped light a fire that continued to grow.
             </p>
           </div>
         </div>
@@ -105,7 +110,7 @@ export default function OurStory(_props) {
               since their Disney trip but Courtney was going to move to San
               Francisco in a month. Adam had never been to California but knew
               he didn't want to leave anything on the table. A few weeks before
-              her big move, Adam booked a trip to to visit SF with Courtney and
+              her big move, Adam booked a trip to visit SF with Courtney and
               they ended up sharing their greatest time together yet. He moved
               there three weeks later.
             </p>
@@ -116,11 +121,10 @@ export default function OurStory(_props) {
             <img alt="First Home" className="timeline__img" src={firstHome} />
             <h2 className="timeline__content-title">Aug 2016</h2>
             <p className="timeline__content-desc">
-              After two years of living with roommates, Courtney and Adam
+              After a few years of living with roommates, Courtney and Adam
               thought it was time to make their next big decision so they moved
               into their own apartment in the heart of the city. It was like
-              living with your best friend - the adventures continued and they
-              experienced living in a few different parts of the city.
+              living with your best friend - the adventures continued...
             </p>
           </div>
         </div>
@@ -135,8 +139,10 @@ export default function OurStory(_props) {
               private cottage and enjoyed the tranquil living with a glass of
               wine made on property. The following afternoon was spent at a
               lovely winery where they sat in their secluded garden pavilion
-              Adam had reserved. As the dessert tray came out with "Courtney..."
-              written on it, Adam got down on one knee... Courtney said yes!
+              Adam had reserved. As the dessert tray came out, Courtney smiled
+              as she anticipated a "Happy Birthday" message. When the plate was
+              put in front of her, she was confused at just seeing “Courtney…”.
+              She turned to Adam and gasped as she saw him on one knee...
             </p>
           </div>
         </div>
