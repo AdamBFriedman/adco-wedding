@@ -9,7 +9,7 @@ import proposal from "../../Images/OurStory/proposal.jpg";
 import useWindowDimensions from "../../util/windowDimensions";
 
 export default function OurStory(_props) {
-  const { height, width } = useWindowDimensions();
+  const { width } = useWindowDimensions();
   useEffect(() => {
     (function (jQuery) {
       jQuery.fn.timeline = function () {
