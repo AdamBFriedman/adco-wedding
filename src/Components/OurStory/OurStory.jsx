@@ -68,8 +68,8 @@ export default function OurStory(_props) {
               Adam hosted a party and remembers how beautiful Courtney looked
               walking up to him as he went outside to greet his guests. "Hi, I'm
               Courtney." she said as she extended her hand. "I love that name!".
-              They shared a lot of interesting adventures that night and he knew
-              he had to ask for her number. They had their first date two days
+              They shared a lot of interesting moments that night and he knew
+              those adventures must continue. They had their first date two days
               later.
             </p>
           </div>
@@ -85,8 +85,10 @@ export default function OurStory(_props) {
             <p className="timeline__content-desc">
               Adam promised Courtney a trip to Disney when they first met but
               life got in the way and that trip never got to happen... until mid
-              February 2014. Perhaps it was the magic inside of the parks but
-              that trip lit a fire that has never gone out.
+              February 2014. Small moments such as watching the fireworks on
+              their hotel balcony or Adam spelling out "Good morning" in
+              silverware combined with the magic inside of the parks helped
+              light a fire that continues to grow.
             </p>
           </div>
         </div>
@@ -99,10 +101,13 @@ export default function OurStory(_props) {
             />
             <h2 className="timeline__content-title">May 2014</h2>
             <p className="timeline__content-desc">
-              Courtney and Adam had become close since their Disney trip but the
-              time came when Courtney decided to move to San Francisco. Adam had
-              never been to California but knew he didn't want to leave anything
-              on the table. He followed her out there and they began dating.
+              Courtney and Adam began seeing each other a lot more frequently
+              since their Disney trip but Courtney was going to move to San
+              Francisco in a month. Adam had never been to California but knew
+              he didn't want to leave anything on the table. A few weeks before
+              her big move, Adam booked a trip to to visit SF with Courtney and
+              they ended up sharing their greatest time together yet. He moved
+              there three weeks later.
             </p>
           </div>
         </div>
@@ -111,9 +116,11 @@ export default function OurStory(_props) {
             <img alt="First Home" className="timeline__img" src={firstHome} />
             <h2 className="timeline__content-title">Aug 2016</h2>
             <p className="timeline__content-desc">
-              After two years of living with roommates, Courtney and Adam moved
-              into their own apartment in the heart of the city. This is where
-              their love began to flourish...
+              After two years of living with roommates, Courtney and Adam
+              thought it was time to make their next big decision so they moved
+              into their own apartment in the heart of the city. It was like
+              living with your best friend - the adventures continued and they
+              experienced living in a few different parts of the city.
             </p>
           </div>
         </div>
@@ -122,10 +129,14 @@ export default function OurStory(_props) {
             <img alt="Proposal" className="timeline__img" src={proposal} />
             <h2 className="timeline__content-title">Aug 2019</h2>
             <p className="timeline__content-desc">
-              After six years of dating, Adam knew it was time. He planned a
-              secret proposal (disguised as Courtney's birthday gift) in Santa
-              Rosa's wine country complete with their own cottage and private
-              wine tasting.
+              Adam knew that it was time. Keeping this secret close to his
+              chest, he planned their proposal (disguised as Courtney's birthday
+              gift) in Santa Rosa's wine country. They checked into their
+              private cottage and enjoyed the tranquil living with a glass of
+              wine made on property. The following afternoon was spent at a
+              lovely winery where they sat in their secluded garden pavilion
+              Adam had reserved. As the dessert tray came out with "Courtney..."
+              written on it, Adam got down on one knee... Courtney said yes!
             </p>
           </div>
         </div>
