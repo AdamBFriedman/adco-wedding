@@ -6,8 +6,10 @@ import fellInLove from "../../Images/OurStory/fellInLove.png";
 import movedToSF from "../../Images/OurStory/movedToCali.png";
 import firstHome from "../../Images/OurStory/firstHome.jpg";
 import proposal from "../../Images/OurStory/proposal.jpg";
+import useWindowDimensions from "../../util/windowDimensions";
 
 export default function OurStory(_props) {
+  const { height, width } = useWindowDimensions();
   useEffect(() => {
     (function (jQuery) {
       jQuery.fn.timeline = function () {
@@ -18,16 +20,20 @@ export default function OurStory(_props) {
           img: ".timeline__img",
         };
         selectors.item.eq(0).addClass(selectors.activeClass);
-        selectors.id.css(
-          "background-image",
-          "url(" + selectors.item.first().find(selectors.img).attr("src") + ")"
-        );
+        if (width > 600) {
+          selectors.id.css(
+            "background-image",
+            "url(" +
+              selectors.item.first().find(selectors.img).attr("src") +
+              ")"
+          );
+        }
 
         jQuery(window).scroll(function () {
           selectors.item.each(function (i) {
             var windowHeight = jQuery(window).height(),
-              gridTop = windowHeight * 0.1,
-              gridBottom = windowHeight * 0.9;
+              gridTop = windowHeight * 0.01,
+              gridBottom = windowHeight * 0.99;
             var thisTop =
               jQuery(this).offset().top - jQuery(window).scrollTop();
 
@@ -35,10 +41,12 @@ export default function OurStory(_props) {
               thisTop > gridTop &&
               thisTop + jQuery(this).height() < gridBottom
             ) {
-              selectors.id.css(
-                "background-image",
-                "url(" + jQuery(this).find(selectors.img).attr("src") + ")"
-              );
+              if (width > 600) {
+                selectors.id.css(
+                  "background-image",
+                  "url(" + jQuery(this).find(selectors.img).attr("src") + ")"
+                );
+              }
               selectors.item.removeClass(selectors.activeClass);
 
               jQuery(this).addClass(selectors.activeClass);

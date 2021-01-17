@@ -128,7 +128,7 @@ $timeline-container-width: 100%;
     position: relative;
     padding: 80px 0;
     background-attachment: fixed;
-    background-size: 100vw 100vh !important;
+    // background-size: auto auto !important;
     &:before {
       position: absolute;
       left: 0;
@@ -279,7 +279,7 @@ $timeline-container-width: 100%;
 
 @media (max-width: 600px) {
   .timeline-container {
-    background: none;
+    background-color: var(--primary);
   }
 
   .timeline-header__title {
