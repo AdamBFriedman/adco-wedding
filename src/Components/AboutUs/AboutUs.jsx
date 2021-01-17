@@ -72,7 +72,8 @@ export default function Aboutus(props) {
                   </h2>
                   <ul>
                     <li>
-                      Occupation: <span>Senior Software Engineer</span>
+                      Occupation:{" "}
+                      <span>Senior Software Engineer - Big Nerd Ranch</span>
                     </li>
                     <li>
                       Hobbies: <span>Games, Coding, Miami Dolphins</span>
@@ -142,15 +143,30 @@ export default function Aboutus(props) {
                     <span>Courtney Kleiman </span>
                     <i className="fa fa-heart-o" aria-hidden="true"></i>
                   </h2>
-                  <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Accusamus architecto cumque neque hic voluptates mollitia
-                    quam repellat nemo rerum iste. Id deserunt, recusandae
-                    quidem libero sint aperiam, officiis temporibus soluta iste
-                    dolor cumque illo tempora assumenda! Architecto tempora nemo
-                    quaerat tempore unde dignissimos aliquam? Non dolorem esse
-                    inventore.
-                  </p>
+                  <ul>
+                    <li>
+                      Occupation: <span>Staffing Lead - Google</span>
+                    </li>
+                    <li>
+                      Hobbies: <span>Simba, Sushi, Adventures</span>
+                    </li>
+                    <li>
+                      Favorite Show: <span>90 Day Fiance</span>
+                    </li>
+                    <li>
+                      Favorite Movie: <span>Deep Blue Sea</span>
+                    </li>
+                    <li>
+                      Favorite Song:{" "}
+                      <span>Whatever - Something here for now</span>
+                    </li>
+                    <li>
+                      Favorite Quote:{" "}
+                      <span>
+                        “I love Adam with all of my heart.” - Courtney Kleiman
+                      </span>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
