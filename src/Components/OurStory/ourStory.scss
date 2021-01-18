@@ -128,7 +128,7 @@ $timeline-container-width: 100%;
     position: relative;
     padding: 80px 0;
     background-attachment: fixed;
-    // background-size: auto auto !important;
+    background-size: 100% 100%;
     &:before {
       position: absolute;
       left: 0;

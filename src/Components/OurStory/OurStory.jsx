@@ -33,7 +33,7 @@ export default function OurStory(_props) {
           selectors.item.each(function (i) {
             var windowHeight = jQuery(window).height(),
               gridTop = windowHeight * 0.01,
-              gridBottom = windowHeight * 0.99;
+              gridBottom = windowHeight;
             var thisTop =
               jQuery(this).offset().top - jQuery(window).scrollTop();
 
