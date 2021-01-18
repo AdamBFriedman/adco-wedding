@@ -91,13 +91,7 @@ export default function OurStory(_props) {
             />
             <h2 className="timeline__content-title">Feb 2014</h2>
             <p className="timeline__content-desc">
-              Adam hosted a party and remembers how beautiful Courtney looked
-              walking up to him as he went outside to greet his guests. "Hi, I'm
-              Courtney" she said as she extended her hand - to which Adam
-              replied "Courtney? I love that name!". They shared a lot of
-              interesting moments that night and he knew those adventures must
-              continue. They had their first date two days later.
-              {/* Adam promised Courtney a trip to Disney when they first met but
+              Adam promised Courtney a trip to Disney when they first met but
               life got in the way and that trip never got to happen...until six
               years later. At this time they were just friends but Adam
               seemingly had more up his sleeve. He arranged a weekend trip for
@@ -107,7 +101,7 @@ export default function OurStory(_props) {
               evening he took her to Hash House a Go Go where they shared laughs
               over a 16" snickers flavored pancake for dinner - yes, that’s
               right - dinner. The magic of Disney ultimately rekindled the love
-              between the two and helped light a fire that continued to grow. */}
+              between the two and helped light a fire that continued to grow.
             </p>
           </div>
         </div>
@@ -147,13 +141,7 @@ export default function OurStory(_props) {
             <img alt="Proposal" className="timeline__img" src={proposal} />
             <h2 className="timeline__content-title">Aug 2019</h2>
             <p className="timeline__content-desc">
-              Adam hosted a party and remembers how beautiful Courtney looked
-              walking up to him as he went outside to greet his guests. "Hi, I'm
-              Courtney" she said as she extended her hand - to which Adam
-              replied "Courtney? I love that name!". They shared a lot of
-              interesting moments that night and he knew those adventures must
-              continue. They had their first date two days later.
-              {/* Adam knew that it was time. Keeping this secret close to his
+              Adam knew that it was time. Keeping this secret close to his
               chest, he planned their proposal (disguised as Courtney's birthday
               gift) in Santa Rosa's wine country. They checked into their
               private cottage and enjoyed the tranquil living with a glass of
@@ -162,7 +150,7 @@ export default function OurStory(_props) {
               Adam had reserved. As the dessert tray came out, Courtney smiled
               as she anticipated a "Happy Birthday" message. When the plate was
               put in front of her, she was confused at just seeing “Courtney…”.
-              She turned to Adam and gasped as she saw him on one knee... */}
+              She turned to Adam and gasped as she saw him on one knee...
             </p>
           </div>
         </div>
