@@ -6,7 +6,7 @@ import Tommy from "../../Images/Groomsmen/tommy.png";
 import Manzella from "../../Images/Groomsmen/manzella.jpg";
 import Sean from "../../Images/Groomsmen/sean.jpg";
 
-export default function Bridesmaids(props) {
+export default function Bridesmaids() {
   return (
     <div className="groomsmen-box">
       <div className="container">
