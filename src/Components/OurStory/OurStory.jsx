@@ -90,19 +90,33 @@ export default function OurStory(_props) {
               src={fellInLove}
             />
             <h2 className="timeline__content-title">Feb 2014</h2>
-            <p className="timeline__content-desc">
-              Adam promised Courtney a trip to Disney when they first met but
-              life got in the way and that trip never got to happen...until six
-              years later. At this time they were just friends but Adam
-              seemingly had more up his sleeve. He arranged a weekend trip for
-              just the two of them to Magic Kingdom where Adam courted her the
-              entire time in true Adam fashion. One morning she woke up to "Good
-              Morning" spelled out in silverware on the kitchen counter. Another
-              evening he took her to Hash House a Go Go where they shared laughs
-              over a 16" snickers flavored pancake for dinner - yes, that’s
-              right - dinner. The magic of Disney ultimately rekindled the love
-              between the two and helped light a fire that continued to grow.
-            </p>
+            {width <= 375 ? (
+              <p className="timeline__content-desc">
+                Adam promised Courtney a trip to Disney when they first met but
+                life got in the way and that trip never got to happen...until
+                six years later. They were just friends at this time but that
+                didn't stop Adam from throwing in a few surprises here and there
+                including one where Courtney woke up to "Good Morning" spelled
+                out in silverware. The magic of Disney ultimately rekindled the
+                love between the two and helped light a fire that continued to
+                grow.
+              </p>
+            ) : (
+              <p className="timeline__content-desc">
+                Adam promised Courtney a trip to Disney when they first met but
+                life got in the way and that trip never got to happen...until
+                six years later. At this time they were just friends but Adam
+                seemingly had more up his sleeve. He arranged a weekend trip for
+                just the two of them to Magic Kingdom where Adam courted her the
+                entire time in true Adam fashion. One morning she woke up to
+                "Good Morning" spelled out in silverware on the kitchen counter.
+                Another evening he took her to Hash House a Go Go where they
+                shared laughs over a 16" snickers flavored pancake for dinner -
+                yes, that’s right - dinner. The magic of Disney ultimately
+                rekindled the love between the two and helped light a fire that
+                continued to grow.
+              </p>
+            )}
           </div>
         </div>
         <div className="timeline-item" data-text="Moved to Cali">
