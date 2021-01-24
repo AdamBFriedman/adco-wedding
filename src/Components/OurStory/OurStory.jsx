@@ -154,18 +154,32 @@ export default function OurStory(_props) {
           <div className="timeline__content">
             <img alt="Proposal" className="timeline__img" src={proposal} />
             <h2 className="timeline__content-title">Aug 2019</h2>
-            <p className="timeline__content-desc">
-              Adam knew that it was time. Keeping this secret close to his
-              chest, he planned their proposal (disguised as Courtney's birthday
-              gift) in Santa Rosa's wine country. They checked into their
-              private cottage and enjoyed the tranquil living with a glass of
-              wine made on property. The following afternoon was spent at a
-              lovely winery where they sat in their secluded garden pavilion
-              Adam had reserved. As the dessert tray came out, Courtney smiled
-              as she anticipated a "Happy Birthday" message. When the plate was
-              put in front of her, she was confused at just seeing “Courtney…”.
-              She turned to Adam and gasped as she saw him on one knee...
-            </p>
+            {width <= 375 ? (
+              <p className="timeline__content-desc">
+                Adam knew that it was time and started planning their proposal
+                in secret. Disguised as her birthday gift, they checked into a
+                private cottage for the weekend. Saturday was spent at a lovely
+                winery where they sat in their secluded garden pavilion Adam had
+                reserved. Expecting a "Happy Birthday" message as the dessert
+                tray came out, Courtney looked down to see just one word:
+                "Courtney...". She turned to Adam and gasped as she saw him on
+                one knee...
+              </p>
+            ) : (
+              <p className="timeline__content-desc">
+                Adam knew that it was time. Keeping this secret close to his
+                chest, he planned their proposal (disguised as Courtney's
+                birthday gift) in Santa Rosa's wine country. They checked into
+                their private cottage and enjoyed the tranquil living with a
+                glass of wine made on property. The following afternoon was
+                spent at a lovely winery where they sat in their secluded garden
+                pavilion Adam had reserved. As the dessert tray came out,
+                Courtney smiled as she anticipated a "Happy Birthday" message.
+                When the plate was put in front of her, she was confused at just
+                seeing “Courtney…”. She turned to Adam and gasped as she saw him
+                on one knee...
+              </p>
+            )}
           </div>
         </div>
       </div>
