@@ -7,7 +7,7 @@ export default function Footer(props) {
         <div className="row">
           <div className="col-lg-12">
             <p className="footer-company-name">
-              All Rights Reserved. &copy; 2020 Designed By: Adam Friedman
+              All Rights Reserved. &copy; 2021 Designed By: Adam Friedman
             </p>
           </div>
         </div>
