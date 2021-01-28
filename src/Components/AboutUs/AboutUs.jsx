@@ -166,7 +166,7 @@ export default function Aboutus(props) {
                       Favorite Quote:{" "}
                       <span>
                         "Throw me to the wolves, and I'll return leading the
-                        pack" - Suzanne Collins
+                        pack." - Suzanne Collins
                       </span>
                     </li>
                   </ul>
