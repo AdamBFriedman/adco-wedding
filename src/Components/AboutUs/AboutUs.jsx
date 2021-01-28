@@ -76,16 +76,16 @@ export default function Aboutus(props) {
                       <span>Senior Software Engineer - Big Nerd Ranch</span>
                     </li>
                     <li>
-                      Hobbies: <span>Games, Coding, Miami Dolphins</span>
+                      Sign: <span>Aquarius</span>
                     </li>
                     <li>
-                      Favorite Show: <span>Seinfeld</span>
+                      Loves: <span>Seinfeld, Sandwiches</span>
                     </li>
                     <li>
-                      Favorite Movie: <span>Dumb and Dumber</span>
+                      Hates: <span>Unnecessary meetings</span>
                     </li>
                     <li>
-                      Favorite Song: <span>Drifters - Up on the Roof</span>
+                      Harry Potter House: <span>Slytherin</span>
                     </li>
                     <li>
                       Favorite Quote:{" "}
@@ -148,22 +148,25 @@ export default function Aboutus(props) {
                       Occupation: <span>Staffing Lead - Google</span>
                     </li>
                     <li>
-                      Hobbies: <span>Simba, Sushi, Adventures</span>
+                      Sign: <span>Leo</span>
                     </li>
                     <li>
-                      Favorite Show: <span>90 Day Fiance</span>
+                      Loves:{" "}
+                      <span>
+                        Adam, Athleisure, Bravo, Carbs, Sushi, Positivity
+                      </span>
                     </li>
                     <li>
-                      Favorite Movie: <span>Deep Blue Sea</span>
+                      Hates: <span>Bugs, Small talk</span>
                     </li>
                     <li>
-                      Favorite Song:{" "}
-                      <span>Whatever - Something here for now</span>
+                      Harry Potter House: <span>Ravenclaw</span>
                     </li>
                     <li>
                       Favorite Quote:{" "}
                       <span>
-                        “I love Adam with all of my heart.” - Courtney Kleiman
+                        "Throw me to the wolves, and I'll return leading the
+                        pack" - Suzanne Collins
                       </span>
                     </li>
                   </ul>
