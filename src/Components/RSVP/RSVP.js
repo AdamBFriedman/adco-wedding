@@ -37,7 +37,7 @@ export default function RSVP(props) {
                   checked
                 />
                 <label className="form-check-label" for="yes">
-                  Of Course! Wouldn't miss it!
+                  Yes, I wouldn't miss it!
                 </label>
               </div>
               <div className="form-check-inline">
@@ -78,11 +78,7 @@ export default function RSVP(props) {
               />
             </div>
             <div className="form-group text-center">
-              <input
-                type="submit"
-                className="btnContact"
-                value="Send Message"
-              />
+              <input type="submit" className="btnContact" value="Submit" />
             </div>
           </div>
         </div>
