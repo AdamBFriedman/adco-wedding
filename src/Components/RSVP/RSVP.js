@@ -37,27 +37,16 @@ export default function RSVP(props) {
             <div className="form-group">
               <input
                 type="text"
-                name="rsvp-guest-number"
+                name="rsvp-guest-list"
                 className="form-control"
-                placeholder="How many guests?"
+                placeholder="Guest name(s)"
               />
-            </div>
-            <div className="form-group">
-              <label for="guest-count">
-                How many guests do you plan on bringing?
-              </label>
-              <select className="form-control" id="guest-count">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-              </select>
             </div>
             <div className="form-group">
               <input
                 type="text"
                 name="rsvp-song"
-                className="form-control"
+                className="form-control mt-1"
                 placeholder="I promise to dance if you play:"
               />
             </div>
@@ -81,9 +70,11 @@ export default function RSVP(props) {
           </div>
         </div>
       </form>
-      <Link to="/">
-        <button className="btn-lg">Home</button>
-      </Link>
+      <div className="text-center pb-2">
+        <Link to="/">
+          <button className="btn-lg">Home</button>
+        </Link>
+      </div>
     </div>
 
     // <div className="RSVP-wrapper">
