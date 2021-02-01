@@ -1,5 +1,5 @@
 /* eslint-disable no-restricted-globals */
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import Preloader from "./Components/Preloader/Preloader";
 import Navbar from "./Components/Navbar/Navbar";
