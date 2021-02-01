@@ -1,36 +1,143 @@
 import "../RSVP/RSVP.css";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
+import Icon_RSVP from "../../Images/Icons/rsvp-icon.jpg";
 
 export default function RSVP(props) {
+  useEffect(() => {
+    const body = document.getElementById("home");
+    body.style.background = "#0f3823";
+  });
+
   return (
-    <div className="RSVP-wrapper">
-      <div className="top"></div>
-      <div className="form">
-        <div className="form-info">
-          <h1>RSVP</h1>
-          <h2>for the wedding of</h2>
-          <h1>Adam & Courtney</h1>
-          <p className="line">__________________________________</p>
-          <h2>The Details</h2>
-          <p>Friday February 4th, 2022</p>
-          <p>4:00 PM</p>
-          <br />
-          <h2>Ceremony & Reception</h2>
-          <p>Club Lake Plantation</p>
-          <p>
-            3403 Rock Springs Rd. <br />
-            Apopka, FL 32712
-          </p>
-          <p className="line">__________________________________</p>
-          <input type="text" placeholder="Name"></input>
-          <input type="number" placeholder="# of Guests"></input>
-        </div>
-        <button className="accept">Accept</button>
-        <button className="regret">Regret</button>
-        <Link to="/">
-          <button className="btn-lg">Home</button>
-        </Link>
+    <div className="container contact-form">
+      <div className="contact-image">
+        <img src={Icon_RSVP} alt="RSVP Icon" />
       </div>
+      <form action="https://formspree.io/f/mnqorngd" method="POST">
+        <h1>RSVP</h1>
+        <div className="row">
+          <div className="col-md-6">
+            <div className="form-group">
+              <input
+                type="text"
+                name="rsvp-name"
+                className="form-control"
+                placeholder="Your Name *"
+              />
+            </div>
+            <div className="form-group">
+              <input
+                type="text"
+                name="rsvp-email"
+                className="form-control"
+                placeholder="Your Email *"
+              />
+            </div>
+            <div className="form-group">
+              <input
+                type="text"
+                name="rsvp-guest-number"
+                className="form-control"
+                placeholder="How many guests?"
+              />
+            </div>
+            <div className="form-group">
+              <label for="guest-count">
+                How many guests do you plan on bringing?
+              </label>
+              <select className="form-control" id="guest-count">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+              </select>
+            </div>
+            <div className="form-group">
+              <input
+                type="text"
+                name="rsvp-song"
+                className="form-control"
+                placeholder="I promise to dance if you play:"
+              />
+            </div>
+            <div className="form-group">
+              <input
+                type="submit"
+                className="btnContact"
+                value="Send Message"
+              />
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="form-group">
+              <textarea
+                name="rsvp-msg"
+                className="form-control"
+                placeholder="Your Message *"
+                style={{ width: "100%", height: "150px" }}
+              ></textarea>
+            </div>
+          </div>
+        </div>
+      </form>
+      <Link to="/">
+        <button className="btn-lg">Home</button>
+      </Link>
     </div>
+
+    // <div className="RSVP-wrapper">
+    //   <div className="top"></div>
+
+    //   <div className="form">
+    //     <div className="form-info">
+    //       <form
+    //         id="fs-frm"
+    //         name="basic-rsvp-form"
+    //         accept-charset="utf-8"
+    //         action="https://formspree.io/f/{form_id}"
+    //         method="post"
+    //       >
+    //         <fieldset id="fs-frm-inputs">
+    //           <label for="full-name">Full Name</label>
+    //           <input
+    //             type="text"
+    //             name="name"
+    //             id="full-name"
+    //             placeholder="First and Last"
+    //             required=""
+    //           />
+    //           <label for="attending">Will you Attend?</label>
+    //           <select name="attending" id="attending" required="">
+    //             <option>Select</option>
+    //             <option value="Yes">Yes</option>
+    //             <option value="No">No</option>
+    //           </select>
+    //           <label for="plus">And with how many guests?</label>
+    //           <select name="plus" id="plus" required="">
+    //             <option value="0" selected="">
+    //               0
+    //             </option>
+    //             <option value="1">1</option>
+    //             <option value="2">2</option>
+    //             <option value="3">3</option>
+    //           </select>
+    //           <input
+    //             type="hidden"
+    //             name="_subject"
+    //             id="email-subject"
+    //             value="RSVP"
+    //           />
+    //         </fieldset>
+    //         <input type="submit" value="RSVP" />
+    //       </form>
+    //     </div>
+    //     <button className="accept">Accept</button>
+    //     <button className="regret">Regret</button>
+    //     <Link to="/">
+    //       <button className="btn-lg">Home</button>
+    //     </Link>
+    //   </div>
+    // </div>
   );
 }
