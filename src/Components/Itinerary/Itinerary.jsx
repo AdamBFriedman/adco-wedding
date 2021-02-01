@@ -13,7 +13,7 @@ export default function Itinerary(props) {
         </div>
 
         <div className="row">
-          <div className="col-lg-3 col-md-6 service-card">
+          <div className="col-lg-4 col-md-6 service-card">
             <div className="serviceBox">
               <div className="service-icon">
                 <i className="ceremony"></i>
@@ -35,6 +35,7 @@ export default function Itinerary(props) {
                 </span>
               </p>
               <a
+                style={{ display: "inline-block" }}
                 rel="noreferrer"
                 target="_blank"
                 href="http://maps.google.com/?q=3403 Rock Springs Rd, Apopka, FL, 32712"
@@ -44,7 +45,7 @@ export default function Itinerary(props) {
             </div>
           </div>
 
-          <div className="col-lg-3 col-md-6 service-card">
+          {/* <div className="col-lg-3 col-md-6 service-card">
             <div className="serviceBox">
               <div className="service-icon">
                 <i className="brunch"></i>
@@ -56,9 +57,9 @@ export default function Itinerary(props) {
                 Join us for brunch the next day!
               </p>
             </div>
-          </div>
+          </div> */}
 
-          <div className="col-lg-3 col-md-6 service-card">
+          <div className="col-lg-4 col-md-6 service-card">
             <div className="serviceBox">
               <div className="service-icon">
                 <i className="disney-icon"></i>
@@ -71,7 +72,7 @@ export default function Itinerary(props) {
               </p>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 service-card">
+          <div className="col-lg-4 col-md-6 service-card">
             <div className="serviceBox">
               <div className="service-icon">
                 <i className="football-icon"></i>

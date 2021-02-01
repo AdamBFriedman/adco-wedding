@@ -83,12 +83,14 @@
   padding: 1em;
   margin-top: 1em;
   border-color: var(--primary-dark);
+  background: var(--primary-dark);
+  color: white;
   cursor: pointer;
 }
 
 .serviceBox button:hover {
-  background: var(--primary-dark);
-  color: white;
+  background: white;
+  color: var(--primary-dark);
 }
 
 .ceremony {
