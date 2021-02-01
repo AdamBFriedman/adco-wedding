@@ -87,65 +87,6 @@ export default function RSVP(props) {
           </div>
         </div>
       </form>
-      <div className="text-center pb-2">
-        <Link to="/">
-          <button className="btn-lg">Home</button>
-        </Link>
-      </div>
     </div>
-
-    // <div className="RSVP-wrapper">
-    //   <div className="top"></div>
-
-    //   <div className="form">
-    //     <div className="form-info">
-    //       <form
-    //         id="fs-frm"
-    //         name="basic-rsvp-form"
-    //         accept-charset="utf-8"
-    //         action="https://formspree.io/f/{form_id}"
-    //         method="post"
-    //       >
-    //         <fieldset id="fs-frm-inputs">
-    //           <label for="full-name">Full Name</label>
-    //           <input
-    //             type="text"
-    //             name="name"
-    //             id="full-name"
-    //             placeholder="First and Last"
-    //             required=""
-    //           />
-    //           <label for="attending">Will you Attend?</label>
-    //           <select name="attending" id="attending" required="">
-    //             <option>Select</option>
-    //             <option value="Yes">Yes</option>
-    //             <option value="No">No</option>
-    //           </select>
-    //           <label for="plus">And with how many guests?</label>
-    //           <select name="plus" id="plus" required="">
-    //             <option value="0" selected="">
-    //               0
-    //             </option>
-    //             <option value="1">1</option>
-    //             <option value="2">2</option>
-    //             <option value="3">3</option>
-    //           </select>
-    //           <input
-    //             type="hidden"
-    //             name="_subject"
-    //             id="email-subject"
-    //             value="RSVP"
-    //           />
-    //         </fieldset>
-    //         <input type="submit" value="RSVP" />
-    //       </form>
-    //     </div>
-    //     <button className="accept">Accept</button>
-    //     <button className="regret">Regret</button>
-    //     <Link to="/">
-    //       <button className="btn-lg">Home</button>
-    //     </Link>
-    //   </div>
-    // </div>
   );
 }

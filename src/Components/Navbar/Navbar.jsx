@@ -6,13 +6,6 @@ import "../Navbar/navbar.css";
 
 export default function Navbar(props) {
   useEffect(() => {
-    jQuery(".navbar-nav .nav-link").on("click", function () {
-      var toggle = jQuery(".navbar-toggler").is(":visible");
-      if (toggle) {
-        jQuery(".navbar-collapse").collapse("hide");
-      }
-    });
-
     jQuery(window).on("scroll", function () {
       if (jQuery(window).scrollTop() > 50) {
         jQuery(".top-header").addClass("fixed-menu");
@@ -26,10 +19,10 @@ export default function Navbar(props) {
     <>
       <header className="top-header">
         <nav className="navbar header-nav navbar-expand-lg">
+          <a className="navbar-brand nav-img" href="#home">
+            <img id="logo" src={Logo} alt="Logo" />
+          </a>
           <div className="container">
-            <a className="navbar-brand" href="index.html">
-              <img id="logo" src={Logo} alt="Logo" />
-            </a>
             <button
               className="navbar-toggler"
               type="button"

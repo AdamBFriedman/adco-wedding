@@ -15,6 +15,7 @@ import FAQ from "./Components/FAQ/FAQ";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import RSVP from "./Components/RSVP/RSVP";
+import NavbarRSVP from "./Components/Navbar/Navbar_RSVP";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
             <Footer />
           </Route>
           <Route exact path="/rsvp">
+            <NavbarRSVP />
             <RSVP />
           </Route>
         </Switch>

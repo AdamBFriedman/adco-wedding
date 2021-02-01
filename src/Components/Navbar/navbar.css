@@ -24,6 +24,10 @@
   color: var(--primary-dark);
 }
 
+.nav-img {
+  transform: translateX(25%);
+}
+
 .top-header .navbar .navbar-collapse ul li a.active {
   background: var(--primary-dark);
   color: #ffffff;
@@ -86,6 +90,12 @@
 
 #logo {
   height: 100px;
+}
+
+/* RSVP NAV */
+
+.nav-rsvp-home:hover {
+  background: var(--primary) !important;
 }
 
 /* Large Tablets */
