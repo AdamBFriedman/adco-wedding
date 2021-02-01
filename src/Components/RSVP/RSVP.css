@@ -2,7 +2,6 @@
   background: #fff;
   margin-top: 10%;
   margin-bottom: 5%;
-  width: 70%;
 }
 .contact-form .form-control {
   border-radius: 1rem;
@@ -15,7 +14,6 @@
   background: white;
   width: 11%;
   margin-top: -3%;
-  /* transform: rotate(29deg); */
 }
 .contact-form form {
   padding: 8%;
@@ -35,110 +33,14 @@
   border: none;
   border-radius: 1rem;
   padding: 1.5%;
-  background: #dc3545;
+  border: 1px solid var(--primary);
+  background: white;
   font-weight: 600;
-  color: #fff;
+  color: var(--primary);
   cursor: pointer;
-}
-.btnContactSubmit {
-  width: 50%;
-  border-radius: 1rem;
-  padding: 1.5%;
-  color: #fff;
-  background-color: #0062cc;
-  border: none;
-  cursor: pointer;
-}
-
-/* .RSVP-wrapper {
-  background: var(--secondary);
-  height: 100vh;
-}
-
-.top {
-  background-color: var(--primary);
-  height: 200px;
-  margin: 0;
-  padding: 0;
-  box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.25);
-}
-
-.form {
-  height: 590px;
-  width: 400px;
-  background-color: #fff;
-  margin: -110px auto;
-  border-radius: 10px;
-  color: #666;
-  padding: 0px 0px;
-  box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.25);
-}
-
-.form-info {
-  padding: 10px;
-}
-
-.form-info h1,
-.form-info h2,
-.form-info p {
-  text-align: center;
-  padding: 0px;
-  margin: 5px 5px;
-}
-
-h2 {
-  font-family: "Great Vibes", cursive;
-  font-weight: 100;
-}
-
-p.line {
-  margin: 0px auto 20px auto;
-  color: #999;
-}
-
-.form input {
-  font-size: 15px;
-  color: #666;
-  padding: 6px;
-  margin: 25px auto 20px;
-  display: block;
-  width: 75%;
-}
-
-.form input:focus {
-  outline: 0;
-}
-
-.accept,
-.regret {
-  display: inline-block;
-  width: 400px;
-  color: white;
-  background-color: var(--primary);
-  border: none;
-  font-family: "Raleway";
-  font-size: 18px;
-  font-weight: 600;
-  padding: 15px 32px;
-  width: 200px;
-  margin: 20px auto 0px auto;
-  float: left;
-}
-
-button.accept {
-  border-radius: 0px 0px 0px 10px;
-  border-right: solid 1px #cc919a;
-}
-
-button.regret {
-  border-radius: 0px 0px 10px 0px;
-}
-
-button:hover {
-  background-color: #cc919a;
   transition: 0.5s;
 }
-
-button:focus {
-  outline: 0;
-} */
+.btnContact:hover {
+  background: var(--primary);
+  color: white;
+}

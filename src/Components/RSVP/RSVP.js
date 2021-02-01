@@ -17,19 +17,46 @@ export default function RSVP(props) {
       <form action="https://formspree.io/f/mnqorngd" method="POST">
         <h1>RSVP</h1>
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-12">
             <div className="form-group">
               <input
                 type="text"
-                name="rsvp-name"
+                name="Name"
                 className="form-control"
                 placeholder="Your Name *"
               />
             </div>
             <div className="form-group">
+              <div className="form-check-inline">
+                <input
+                  className="form-check-inline"
+                  type="radio"
+                  name="Are you attending?"
+                  id="yes"
+                  value="Yes"
+                  checked
+                />
+                <label className="form-check-label" for="yes">
+                  Of Course! Wouldn't miss it!
+                </label>
+              </div>
+              <div className="form-check-inline">
+                <input
+                  className="form-check-inline"
+                  type="radio"
+                  name="Are you attending?"
+                  id="no"
+                  value="No"
+                />
+                <label className="form-check-label" for="no">
+                  No, I hate fun!
+                </label>
+              </div>
+            </div>
+            <div className="form-group">
               <input
                 type="text"
-                name="rsvp-email"
+                name="Email"
                 className="form-control"
                 placeholder="Your Email *"
               />
@@ -37,7 +64,7 @@ export default function RSVP(props) {
             <div className="form-group">
               <input
                 type="text"
-                name="rsvp-guest-list"
+                name="Guest List"
                 className="form-control"
                 placeholder="Guest name(s)"
               />
@@ -45,27 +72,17 @@ export default function RSVP(props) {
             <div className="form-group">
               <input
                 type="text"
-                name="rsvp-song"
+                name="Song"
                 className="form-control mt-1"
                 placeholder="I promise to dance if you play:"
               />
             </div>
-            <div className="form-group">
+            <div className="form-group text-center">
               <input
                 type="submit"
                 className="btnContact"
                 value="Send Message"
               />
-            </div>
-          </div>
-          <div className="col-md-6">
-            <div className="form-group">
-              <textarea
-                name="rsvp-msg"
-                className="form-control"
-                placeholder="Your Message *"
-                style={{ width: "100%", height: "150px" }}
-              ></textarea>
             </div>
           </div>
         </div>
