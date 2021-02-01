@@ -1,11 +1,12 @@
 import "../RSVP/RSVP.css";
+import { Link } from "react-router-dom";
 
 export default function RSVP(props) {
   return (
     <div className="RSVP-wrapper">
       <div className="top"></div>
       <div className="form">
-        <div className="info">
+        <div className="form-info">
           <h1>RSVP</h1>
           <h2>for the wedding of</h2>
           <h1>Adam & Courtney</h1>
@@ -26,6 +27,9 @@ export default function RSVP(props) {
         </div>
         <button className="accept">Accept</button>
         <button className="regret">Regret</button>
+        <Link to="/">
+          <button className="btn-lg">Home</button>
+        </Link>
       </div>
     </div>
   );

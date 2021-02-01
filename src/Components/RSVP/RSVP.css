@@ -22,13 +22,13 @@
   box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.25);
 }
 
-.info {
+.form-info {
   padding: 10px;
 }
 
-h1,
-h2,
-p {
+.form-info h1,
+.form-info h2,
+.form-info p {
   text-align: center;
   padding: 0px;
   margin: 5px 5px;
@@ -53,15 +53,14 @@ p.line {
   width: 75%;
 }
 
-input:focus {
+.form input:focus {
   outline: 0;
 }
 
-.button button {
+.accept,
+.regret {
   display: inline-block;
   width: 400px;
-}
-button {
   color: white;
   background-color: var(--primary);
   border: none;

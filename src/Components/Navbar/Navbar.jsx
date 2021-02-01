@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import jQuery from "jquery";
 import Logo from "../../Images/Logo/logo.png";
@@ -91,6 +92,11 @@ export default function Navbar(props) {
                   <a className="nav-link" href="#contact">
                     Contact
                   </a>
+                </li>
+                <li>
+                  <Link className="nav-link" to="/rsvp">
+                    RSVP
+                  </Link>
                 </li>
               </ul>
             </div>
