@@ -1,5 +1,4 @@
 import "../RSVP/RSVP.css";
-import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import Icon_RSVP from "../../Images/Icons/rsvp-icon.jpg";
 

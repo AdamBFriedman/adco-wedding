@@ -1,9 +1,6 @@
 import { Link } from "react-router-dom";
-import { useEffect } from "react";
-import jQuery from "jquery";
-import Logo from "../../Images/Logo/logo.png";
 
-export default function Navbar_RSVP(props) {
+export default function Navbar_RSVP() {
   return (
     <>
       <header className="top-header">

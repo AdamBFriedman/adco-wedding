@@ -1,10 +1,10 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import jQuery from "jquery";
 import Logo from "../../Images/Logo/logo.png";
 import "../Navbar/navbar.css";
 
-export default function Navbar(props) {
+export default function Navbar() {
   useEffect(() => {
     jQuery(window).on("scroll", function () {
       if (jQuery(window).scrollTop() > 50) {
@@ -86,11 +86,11 @@ export default function Navbar(props) {
                     Contact
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <Link className="nav-link" to="/rsvp">
                     RSVP
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

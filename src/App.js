@@ -14,8 +14,8 @@ import Registry from "./Components/Registry/Registry";
 import FAQ from "./Components/FAQ/FAQ";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
-import RSVP from "./Components/RSVP/RSVP";
-import NavbarRSVP from "./Components/Navbar/Navbar_RSVP";
+// import RSVP from "./Components/RSVP/RSVP";
+// import NavbarRSVP from "./Components/Navbar/Navbar_RSVP";
 
 function App() {
   return (
@@ -37,10 +37,10 @@ function App() {
             <Contact />
             <Footer />
           </Route>
-          <Route exact path="/rsvp">
+          {/* <Route exact path="/rsvp">
             <NavbarRSVP />
             <RSVP />
-          </Route>
+          </Route> */}
         </Switch>
       </div>
     </Router>
