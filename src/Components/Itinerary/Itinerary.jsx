@@ -79,10 +79,7 @@ export default function Itinerary(props) {
               </div>
               <h3 className="title">Super Bowl</h3>
               <h4>Sunday, February 6th 2022 at 5:00 pm</h4>
-              <p className="description">
-                Super Bowl party will be held inside of our hotel. Details to
-                come. Fins up!
-              </p>
+              <p className="description">Details to come. Fins up!</p>
             </div>
           </div>
         </div>
