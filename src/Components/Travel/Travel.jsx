@@ -20,14 +20,14 @@ export default function Travel(props) {
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href="https://www.fourseasons.com/orlando/"
+                  href="https://www.buenavistapalace.com/"
                 >
-                  Four Seasons
+                  Orlando Buena Vista Palace
                 </a>
                 <br />
                 <span className="addressText">
-                  10100 Dream Tree Blvd <br />
-                  Lake Buena Vista, FL 32836
+                  1900 E Buena Vista Dr <br />
+                  Lake Buena Vista, FL 32830
                 </span>
                 <br />
 
@@ -62,18 +62,18 @@ export default function Travel(props) {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://www.marriott.com/hotels/travel/mcofm-springhill-suites-orlando-at-flamingo-crossings-town-center-western-entrance/"
+                    href="https://www.hilton.com/en/hotels/sfbakgi-hilton-garden-inn-apopka-city-center/"
                   >
-                    Spring Hill Suites
+                    Hilton Garden Inn
                   </a>
                   <br />
                   <span className="addressText">
-                    13279 Flamingo Crossings Blvd <br />
-                    Winter Garden, FL 34787
+                    580 E. Main Street <br />
+                    Apopka, Fl 32703
                   </span>
                   <br />
                   <span className="distanceText">
-                    (Approx. 34 min to venue)
+                    (Approx. 11 min to venue)
                   </span>
                 </p>
               </div>
