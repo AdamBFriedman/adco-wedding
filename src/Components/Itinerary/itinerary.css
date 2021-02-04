@@ -14,6 +14,7 @@
   font-family: "Montserrat", sans-serif;
   color: var(--primary-dark);
 }
+
 .serviceBox:before {
   content: "";
   border-top: 0 solid var(--primary-dark);
@@ -24,10 +25,12 @@
   z-index: 1;
   transition: all 0.3s ease 0s;
 }
+
 .serviceBox:hover:before {
   border-top-width: 78px;
   border-right-width: 78px;
 }
+
 .serviceBox:after {
   content: "";
   border-bottom: 0 solid var(--primary-dark);
@@ -38,10 +41,12 @@
   z-index: 1;
   transition: all 0.3s ease 0s;
 }
+
 .serviceBox:hover:after {
   border-bottom-width: 78px;
   border-left-width: 78px;
 }
+
 .serviceBox .service-icon {
   display: inline-block;
   width: 100px;
@@ -54,6 +59,7 @@
   margin-bottom: 20px;
   position: relative;
 }
+
 .serviceBox .title {
   font-size: 20px;
   font-weight: 700;
@@ -64,9 +70,11 @@
   transition: all 0.3s ease 0s;
   font-family: "Open Sans", sans-serif;
 }
+
 .serviceBox:hover .title {
   letter-spacing: 3px;
 }
+
 .serviceBox .description {
   font-size: 15px;
   letter-spacing: 1px;
