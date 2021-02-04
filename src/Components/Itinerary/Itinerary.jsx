@@ -67,8 +67,8 @@ export default function Itinerary(props) {
               <h3 className="title">Disney</h3>
               <h4>Saturday, February 5th 2022 at 3:00 pm</h4>
               <p className="description">
-                After brunch, we're going to the happiest place on earth! We
-                will be staying until the park closes :)
+                We're going to the happiest place on earth! We will be staying
+                until the park closes :)
               </p>
             </div>
           </div>
