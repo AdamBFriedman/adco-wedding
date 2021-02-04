@@ -75,6 +75,7 @@
   display: block;
   border-radius: 50px;
   margin: 0px 5px;
+  transition: 0.5s;
 }
 
 .about-m ul li a:hover {

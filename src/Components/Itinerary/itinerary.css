@@ -86,6 +86,7 @@
   background: var(--primary-dark);
   color: white;
   cursor: pointer;
+  transition: 0.5s;
 }
 
 .serviceBox button:hover {
