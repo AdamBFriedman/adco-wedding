@@ -26,7 +26,7 @@ export default function Contact(props) {
                         type="text"
                         className="form-control"
                         id="name"
-                        name="name"
+                        name="Name"
                         placeholder="Your Name"
                         required
                         data-error="Please enter your name."
@@ -41,7 +41,7 @@ export default function Contact(props) {
                         placeholder="Your Email"
                         id="email"
                         className="form-control"
-                        name="email"
+                        name="Email"
                         required
                         data-error="Please enter your email."
                       />
@@ -53,7 +53,7 @@ export default function Contact(props) {
                     <div className="form-group">
                       <textarea
                         className="form-control"
-                        name="message"
+                        name="Message"
                         id="message"
                         placeholder="Your Message"
                         rows="8"
