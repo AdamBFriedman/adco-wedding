@@ -17,7 +17,7 @@ export default function FAQ(props) {
               <div className="card faq-card">
                 <div className="card-header p-2" id="headingOne">
                   <button
-                    className="btn btn-link"
+                    className="btn-faq btn btn-link"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseOne"
@@ -30,7 +30,7 @@ export default function FAQ(props) {
 
                 <div
                   id="collapseOne"
-                  className="collapse show"
+                  className="collapse"
                   aria-labelledby="headingOne"
                   data-parent="#wedding-faq"
                 >
@@ -45,7 +45,7 @@ export default function FAQ(props) {
               <div className="card faq-card">
                 <div className="card-header p-2" id="headingTwo">
                   <button
-                    className="btn btn-link collapsed"
+                    className="btn-faq btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseTwo"
@@ -72,7 +72,7 @@ export default function FAQ(props) {
               <div className="card faq-card">
                 <div className="card-header p-2" id="headingThree">
                   <button
-                    className="btn btn-link collapsed"
+                    className="btn-faq btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseThree"
@@ -99,7 +99,7 @@ export default function FAQ(props) {
               <div className="card faq-card">
                 <div className="card-header p-2" id="headingFour">
                   <button
-                    className="btn btn-link collapsed"
+                    className="btn-faq btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseFour"
@@ -126,7 +126,7 @@ export default function FAQ(props) {
               <div className="card faq-card">
                 <div className="card-header p-2" id="headingFive">
                   <button
-                    className="btn btn-link collapsed"
+                    className="btn-faq btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseFive"
@@ -153,7 +153,7 @@ export default function FAQ(props) {
               <div className="card faq-card">
                 <div className="card-header p-2" id="headingSix">
                   <button
-                    className="btn btn-link collapsed"
+                    className="btn-faq btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseSix"
@@ -182,7 +182,7 @@ export default function FAQ(props) {
               <div className="card faq-card">
                 <div className="card-header p-2" id="headingSeven">
                   <button
-                    className="btn btn-link collapsed"
+                    className="btn-faq btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
                     data-target="#collapseSeven"

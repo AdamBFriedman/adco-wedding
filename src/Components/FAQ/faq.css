@@ -8,6 +8,10 @@
   border-bottom: 1px solid var(--primary) !important;
 }
 
+.btn-faq {
+  text-decoration-color: var(--primary) !important;
+}
+
 .card-body {
   border-top: 1px solid var(--primary) !important;
 }
