@@ -22,7 +22,7 @@ export default function Travel(props) {
                   rel="noreferrer"
                   href="https://www.buenavistapalace.com/"
                 >
-                  Orlando Buena Vista Palace
+                  Hilton Buena Vista Palace
                 </a>
                 <br />
                 <span className="addressText">
