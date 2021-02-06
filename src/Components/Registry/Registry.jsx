@@ -22,7 +22,7 @@ export default function Registry(props) {
                 <a
                   rel="noreferrer"
                   target="_blank"
-                  href="https://www.travelersjoy.com/adcowedding"
+                  href="https://wanderable.com/hm/ADCO"
                 >
                   <img className="img-fluid" src={Bali} alt="" />
                 </a>
