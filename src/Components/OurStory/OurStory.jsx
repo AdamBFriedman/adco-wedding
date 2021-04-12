@@ -153,7 +153,7 @@ export default function OurStory(_props) {
         <div className="timeline-item" data-text="Proposal">
           <div className="timeline__content">
             <img alt="Proposal" className="timeline__img" src={proposal} />
-            <h2 className="timeline__content-title">Aug 2019</h2>
+            <h2 className="timeline__content-title">Aug 2020</h2>
             {width <= 375 ? (
               <p className="timeline__content-desc">
                 Adam knew that it was time and started planning their proposal
