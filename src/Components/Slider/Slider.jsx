@@ -251,7 +251,7 @@ export default function Slider(props) {
     Countdown Clock
     ................................................. */
       function makeTimer() {
-        let countDownDate = new Date("Feb 5, 2022 16:00:00").getTime();
+        let countDownDate = new Date("February 04, 2022 16:00 GMT-05:00");
         // Update the count down every 1 second
         let x = setInterval(function () {
           // Get today's date and time
