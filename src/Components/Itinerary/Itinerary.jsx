@@ -1,6 +1,6 @@
 import "../Itinerary/itinerary.css";
 
-export default function Itinerary(props) {
+export default function Itinerary() {
   return (
     <div id="wedding" className="wedding-box">
       <div className="container">
@@ -45,19 +45,19 @@ export default function Itinerary(props) {
             </div>
           </div>
 
-          {/* <div className="col-lg-3 col-md-6 service-card">
+          <div className="col-lg-4 col-md-6 service-card">
             <div className="serviceBox">
               <div className="service-icon">
                 <i className="brunch"></i>
               </div>
               <h3 className="title">Brunch</h3>
-              <h4>Saturday, February 5th, 2022 at 10:30 am</h4>
+              <h4>Saturday, February 5th, 2022 at 11:00 am</h4>
               <p className="description">
                 Do you like mimosa's? Do you like pancakes or eggs benedict?
                 Join us for brunch the next day!
               </p>
             </div>
-          </div> */}
+          </div>
 
           <div className="col-lg-4 col-md-6 service-card">
             <div className="serviceBox">
@@ -70,16 +70,6 @@ export default function Itinerary(props) {
                 We're going to the happiest place on earth! We will be staying
                 until the park closes :)
               </p>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6 service-card">
-            <div className="serviceBox">
-              <div className="service-icon">
-                <i className="football-icon"></i>
-              </div>
-              <h3 className="title">Super Bowl</h3>
-              <h4>Sunday, February 6th, 2022 at 5:00 pm</h4>
-              <p className="description">Details to come. Fins up!</p>
             </div>
           </div>
         </div>
