@@ -51,7 +51,7 @@ export default function Itinerary() {
                 <i className="brunch"></i>
               </div>
               <h3 className="title">Brunch</h3>
-              <h4>Saturday, February 5th, 2022 at 11:00 am</h4>
+              <h4>Saturday, February 5th, 2022 at 10:00 am</h4>
               <p className="description">
                 Do you like mimosa's? Do you like pancakes or eggs benedict?
                 Join us for brunch the next day!
@@ -65,7 +65,7 @@ export default function Itinerary() {
                 <i className="disney-icon"></i>
               </div>
               <h3 className="title">Disney</h3>
-              <h4>Saturday, February 5th, 2022 at 3:00 pm</h4>
+              <h4>Saturday, February 5th, 2022 at 1:00 pm</h4>
               <p className="description">
                 We're going to the happiest place on earth! We will be staying
                 until the park closes :)
