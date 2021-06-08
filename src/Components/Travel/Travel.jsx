@@ -30,8 +30,17 @@ export default function Travel(props) {
                   Lake Buena Vista, FL 32830
                 </span>
                 <br />
-
-                <span className="distanceText">(Approx. 41 min to venue)</span>
+                <span className="distanceText">
+                  (Approx. 41 min to venue)
+                </span>{" "}
+                <br /> <br />
+                <a
+                  href="https://book.passkey.com/gt/218164745?gtid=fadab61d56f957e9c0fd7255771de189"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Room Block
+                </a>
               </p>
             </div>
           </div>
