@@ -102,15 +102,8 @@
   color: var(--primary-dark);
 }
 
-.ceremony {
+.ceremony-icon {
   content: url(../../Images/Icons/ceremony.png);
-  object-fit: contain;
-  height: 50%;
-  width: 80%;
-}
-
-.brunch {
-  content: url(../../Images/Icons/brunch.png);
   object-fit: contain;
   height: 50%;
   width: 80%;
@@ -121,10 +114,11 @@
   object-fit: contain;
   height: 50%;
   width: 80%;
+  fill: var(--primary-dark);
 }
 
-.football-icon {
-  content: url(../../Images/Icons/football.png);
+.waterpark-icon {
+  content: url(../../Images/Icons/waterpark.png);
   object-fit: contain;
   height: 50%;
   width: 80%;

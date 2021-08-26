@@ -16,7 +16,7 @@ export default function Itinerary() {
           <div className="col-lg-4 col-md-6 service-card">
             <div className="serviceBox">
               <div className="service-icon">
-                <i className="ceremony"></i>
+                <i className="ceremony-icon"></i>
               </div>
               <h3 className="title">Ceremony</h3>
               <h4>Friday, February 4th, 2022 at 4:00 pm</h4>
@@ -48,13 +48,13 @@ export default function Itinerary() {
           <div className="col-lg-4 col-md-6 service-card">
             <div className="serviceBox">
               <div className="service-icon">
-                <i className="brunch"></i>
+                <i className="disney-icon"></i>
               </div>
-              <h3 className="title">Brunch</h3>
-              <h4>Saturday, February 5th, 2022 at 10:00 am</h4>
+              <h3 className="title">Disney</h3>
+              <h4>Saturday, February 5th, 2022 at 1:00 pm</h4>
               <p className="description">
-                Do you like mimosa's? Do you like pancakes or eggs benedict?
-                Join us for brunch the next day!
+                We're going to the happiest place on earth (Magic Kingdom)! We
+                will be staying until the park closes :)
               </p>
             </div>
           </div>
@@ -62,13 +62,13 @@ export default function Itinerary() {
           <div className="col-lg-4 col-md-6 service-card">
             <div className="serviceBox">
               <div className="service-icon">
-                <i className="disney-icon"></i>
+                <i className="waterpark-icon"></i>
               </div>
-              <h3 className="title">Disney</h3>
-              <h4>Saturday, February 5th, 2022 at 1:00 pm</h4>
+              <h3 className="title">Volcano Bay</h3>
+              <h4>Sunday, February 6th, 2022 at 12:00 pm</h4>
               <p className="description">
-                We're going to the happiest place on earth! We will be staying
-                until the park closes :)
+                Do you like water slides?? Do you like lazy rivers and wave
+                pools? Join us at Universal's Volcano Bay on Sunday!
               </p>
             </div>
           </div>
