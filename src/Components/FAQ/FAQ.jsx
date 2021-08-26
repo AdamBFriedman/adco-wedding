@@ -64,8 +64,8 @@ export default function FAQ(props) {
                   data-parent="#wedding-faq"
                 >
                   <div className="card-body">
-                    Please check back once wedding invitations are sent - we are
-                    currently working on room blocks.
+                    Yes, we are staying at the Hilton Buena Vista Palace. Scroll
+                    up to Travel Information for the room block code.
                   </div>
                 </div>
               </div>
@@ -172,10 +172,9 @@ export default function FAQ(props) {
                   data-parent="#wedding-faq"
                 >
                   <div className="card-body">
-                    This weekend is all about fun so we have a few optional
-                    events including brunch and Disney the following day, as
-                    well as a Super Bowl party on Sunday (stay tuned for more
-                    details).
+                    This weekend is all about fun so we have a couple of
+                    optional events: Magic Kingdom on Saturday and Universal's
+                    Volcano Bay on Sunday.
                   </div>
                 </div>
               </div>
@@ -204,7 +203,7 @@ export default function FAQ(props) {
                   <div className="card-body">
                     Yes, we encourage guests to post pictures onto their social
                     media channels. Our only request is that you tag each photo
-                    with our wedding hashtag #KleimanLoveWithYou so we can keep
+                    with our wedding hashtag #FinallyFriedman so we can keep
                     track of all of your pictures!
                   </div>
                 </div>
