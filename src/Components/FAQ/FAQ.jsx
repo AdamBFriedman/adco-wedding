@@ -38,7 +38,7 @@ export default function FAQ(props) {
                     We have a strict guest list and will only be able to
                     accommodate those listed on your invitation. However, you're
                     welcome to bring additional guests to the optional events
-                    (see above) - the more the merrier!
+                    (see below) - the more the merrier!
                   </div>
                 </div>
               </div>
