@@ -71,11 +71,11 @@ export default function Navbar() {
                     Travel
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a className="nav-link" href="#registry">
                     Registry
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a className="nav-link" href="#faq">
                     FAQ
