@@ -117,8 +117,8 @@
   fill: var(--primary-dark);
 }
 
-.waterpark-icon {
-  content: url(../../Images/Icons/waterpark.png);
+.reception-icon {
+  content: url(../../Images/Icons/reception.png);
   object-fit: contain;
   height: 50%;
   width: 80%;
