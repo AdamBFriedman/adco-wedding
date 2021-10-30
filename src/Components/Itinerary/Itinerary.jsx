@@ -53,8 +53,9 @@ export default function Itinerary() {
               <h3 className="title">Cocktails/Reception</h3>
               <h4>Friday, February 4th, 2022 at 5:00 pm</h4>
               <p className="description">
-                Following the ceremony, join us for cocktails from 5:00pm
-                followed by the reception from 6:00pm - 10:00pm
+                After the ceremony, join us for cocktails (same location as the
+                ceremony) at 5:00pm followed by the reception from 6:00pm -
+                10:00pm
               </p>
             </div>
           </div>
