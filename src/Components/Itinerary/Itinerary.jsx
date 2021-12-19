@@ -55,7 +55,7 @@ export default function Itinerary() {
               <p className="description">
                 After the ceremony, join us for cocktails (same location as the
                 ceremony) at 5:00pm followed by the reception from 6:00pm -
-                10:00pm
+                10:30pm
               </p>
             </div>
           </div>
