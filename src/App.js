@@ -10,7 +10,7 @@ import Bridesmaids from "./Components/Bridesmaids/Bridesmaids";
 import Groomsmen from "./Components/Groomsmen/Groomsmen";
 import Itinerary from "./Components/Itinerary/Itinerary";
 import Travel from "./Components/Travel/Travel";
-// import Registry from "./Components/Registry/Registry";
+import Registry from "./Components/Registry/Registry";
 import FAQ from "./Components/FAQ/FAQ";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
@@ -32,7 +32,7 @@ function App() {
             <Groomsmen />
             <Itinerary />
             <Travel />
-            {/* <Registry /> */}
+            <Registry />
             <FAQ />
             <Contact />
             <Footer />

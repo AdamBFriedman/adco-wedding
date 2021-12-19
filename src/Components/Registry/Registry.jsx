@@ -1,6 +1,6 @@
 import "../Registry/registry.css";
-import BBB from "../../Images/Registry/registry-bbb.jpg";
-import Bali from "../../Images/Registry/registry-bali.png";
+import WilliamsSonoma from "../../Images/Registry/williamssonoma.jpg";
+import CrateAndBarrel from "../../Images/Registry/crateandbarrel.png";
 
 export default function Registry(props) {
   return (
@@ -17,14 +17,14 @@ export default function Registry(props) {
         <div className="row">
           <div className="col-md-6 col-sm-6 service-card">
             <div className="serviceBox registryBox">
-              <h3 className="title">Honeymoon</h3>
+              {/* <h3 className="title">Crate & Barrel</h3> */}
               <div className="registry-photo">
                 <a
                   rel="noreferrer"
                   target="_blank"
-                  href="https://wanderable.com/hm/ADCO"
+                  href="https://www.crateandbarrel.com/gift-registry/courtney-kleiman-and-adam-friedman/r6418777"
                 >
-                  <img className="img-fluid" src={Bali} alt="" />
+                  <img className="img-fluid" src={CrateAndBarrel} alt="" />
                 </a>
               </div>
             </div>
@@ -32,14 +32,14 @@ export default function Registry(props) {
 
           <div className="col-md-6 col-sm-6 service-card">
             <div className="serviceBox registryBox">
-              <h3 className="title">Home</h3>
+              {/* <h3 className="title">Williams Sonoma</h3> */}
               <div className="registry-photo">
                 <a
                   rel="noreferrer"
                   target="_blank"
-                  href="https://www.bedbathandbeyond.com/store/giftregistry/viewregistryguest/549731125?eventType=Wedding"
+                  href="https://www.williams-sonoma.com/registry/hr5wkfv8vj/registry-list.html"
                 >
-                  <img className="img-fluid" src={BBB} alt="" />
+                  <img className="img-fluid" src={WilliamsSonoma} alt="" />
                 </a>
               </div>
             </div>
