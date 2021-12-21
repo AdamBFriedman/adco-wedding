@@ -47,22 +47,20 @@ export default function Travel(props) {
 
           <div className="col-lg-4 col-md-6 col-sm-12 service-card">
             <div className="serviceBox">
-              <h3 className="title">Closest to Venue</h3>
+              <h3 className="title">Transportation</h3>
               <p className="description">
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://www.hilton.com/en/hotels/sfbakgi-hilton-garden-inn-apopka-city-center/"
-                >
-                  Hilton Garden Inn
-                </a>
+                Transportation will be provided to the venue and back to the
+                hotel. Please let us know at least two (2) weeks before if you
+                plan to use this so we can account for you.
                 <br />
                 <span className="addressText">
-                  580 E. Main Street <br />
-                  Apopka, Fl 32703
+                  <span style={{ fontWeight: 900 }}>* Pick up:</span> Leaves
+                  hotel (Hilton Lake Buena Vista Palace) at 2:45pm *SHARP*{" "}
+                  <br />
+                  <span style={{ fontWeight: 900 }}>* Drop off:</span> Leaves
+                  venue at 10:30pm to drop off at hotel (Hilton Lake Buena Vista
+                  Palace)
                 </span>
-                <br />
-                <span className="distanceText">(Approx. 11 min to venue)</span>
               </p>
             </div>
           </div>
